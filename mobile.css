@@ -1,0 +1,82 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+html {
+	margin: 0;
+}
+body {
+	font-size: 0.8em;
+	color: #666;
+	margin:0;
+}
+h1{
+	font-family: erbar, jakob, sans-serif;
+	font-size: 3em;
+}
+h2{
+	font-family: avenir, sans-serif;
+	font-size: 1.5em;
+	font-weight: 100;
+	display: inline-block;
+	margin:0 0 1em 0;
+}
+p {
+	font-family: avenir, sans-serif;
+	font-size: 1em;
+}
+
+hr {
+	margin:0;
+}
+
+.introduction {
+	width: auto;
+	margin:0;
+	text-align:center;
+	background-color: #ccc;
+	padding: 2rem 0;
+}
+
+.stage_header{
+	padding-left: 1rem;
+	margin-top: 2rem;
+}
+.stage_footer {padding-left:1rem;}
+.stage_tools {
+	width: auto;
+	height:200px;
+  	white-space: nowrap;
+  	overflow-y: hidden;
+  	overflow-x: scroll;
+  	-webkit-overflow-scrolling: touch;
+  	padding: 1rem;
+}
+
+.stage_tools a {
+    display: inline;
+ 	height:100%;
+}
+
+.icon {
+	height:100%;
+}
+
+a.svg {
+  position: relative;
+  display: inline-block; 
+}
+a.svg:after {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left:0;
+}
+.dvf_icon {
+	display:inline;
+	margin-right: 2rem;
+	margin-bottom: -0.7rem;
+}
